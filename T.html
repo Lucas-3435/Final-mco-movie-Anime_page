@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MovieFlix - Feature</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="logo">
+      <img src="images/logo.png" alt="MovieFlix Logo" onerror="this.style.display='none'"/>
+      <h1>MovieFlix</h1>
+    </div>
+    <nav class="main-nav">
+      <a href="index.html">Cinema</a>
+      <a href="characters.html">Characters</a>
+      <a href="products.html">Products</a>
+    </nav>
+    <div class="cart-summary">
+      <button id="cart-btn">Cart (<span id="cart-count">0</span>)</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="feature-hero" id="cinema">
+      <div class="hero-left">
+        <h2>Demon Slayer: Kimetsu no Yaiba</h2>
+        <p class="sub">Experience epic battles, vivid animation and a moving story of family and revenge.</p>
+        <p><strong>Synopsis:</strong> Tanjiro Kamado joins the Demon Slayer Corps after his family is slaughtered and his sister Nezuko is turned into a demon. He seeks a cure and vengeance.</p>
+        <p><strong>Main Credits:</strong> Director: Haruo Sotozaki | Producers: Aniplex, Ufotable</p>
+        <p><strong>Voice Artists:</strong> Natsuki Hanae (Tanjiro), Akari Kito (Nezuko)</p>
+        <a class="btn" href="characters.html">See Characters</a>
+      </div>
+      <div class="hero-right">
+        <img src="images/demon.jpg" alt="Demon Slayer poster" />
+      </div>
+    </section>
+
+    <section class="highlights">
+      <h3>Also Trending</h3>
+      <div class="card-row">
+        <article class="card">
+          <img src="images/kungfu.jpg" alt="Kung Fu Panda"/>
+          <h4>Kung Fu Panda</h4>
+          <p>Comedy & martial arts classic for all ages.</p>
+          <a class="small-btn" href="characters.html#kungfu">Read More</a>
+        </article>
+
+        <article class="card">
+          <img src="images/spongebob.jpg" alt="SpongeBob Movie"/>
+          <h4>The SpongeBob Movie</h4>
+          <p>Undersea adventure with heart and laughs.</p>
+          <a class="small-btn" href="characters.html#spongebob">Read More</a>
+        </article>
+
+        <article class="card">
+          <img src="images/mha.jpg" alt="My Hero Academia"/>
+          <h4>My Hero Academia</h4>
+          <p>Superhero school meets epic fights.</p>
+          <a class="small-btn" href="characters.html#mha">Read More</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="showtimes">
+      <h3>Available Cinemas & Showtimes</h3>
+      <table class="showtable">
+        <thead><tr><th>Cinema</th><th>Location</th><th>Next Show</th></tr></thead>
+        <tbody>
+          <tr><td>Cinema City</td><td>Central Mall</td><td>3:30 PM</td></tr>
+          <tr><td>Grand Theater</td><td>Riverside</td><td>5:45 PM</td></tr>
+          <tr><td>StudioX</td><td>North Plaza</td><td>7:00 PM</td></tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-col">
+      <div class="logo-mini"><h3>MovieFlix</h3></div>
+      <p>Follow us:
+        <a href="#" aria-label="facebook">FB</a> |
+        <a href="#" aria-label="twitter">TW</a> |
+        <a href="#" aria-label="instagram">IG</a>
+      </p>
+    </div>
+    <div class="footer-col">
+      <h4>Developed by</h4>
+      <p>Group: WD1 Teams</p>
+      <p>Names: Nicolas Jon R. Banasan et al.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Menu</h4>
+      <nav>
+        <a href="index.html">Feature</a><br/>
+        <a href="characters.html">Characters</a><br/>
+        <a href="products.html">Products</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MovieFlix - Characters</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo">
+      <h1>MovieFlix</h1>
+    </div>
+    <nav class="main-nav">
+      <a href="index.html">Cinema</a>
+      <a href="characters.html">Characters</a>
+      <a href="products.html">Products</a>
+    </nav>
+    <div class="cart-summary">
+      <button id="cart-btn-2">Cart (<span id="cart-count-2">0</span>)</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>Characters</h2>
+
+    <!-- Demon Slayer -->
+    <section id="demon" class="character-block">
+      <h3>Demon Slayer - Main Characters</h3>
+      <div class="char-grid">
+        <div class="char-card">
+          <img src="images/demon.jpg" alt="Tanjiro" />
+          <h4>Tanjiro Kamado (Protagonist)</h4>
+          <p>Kind, determined young demon slayer. Voice: Natsuki Hanae.</p>
+        </div>
+        <div class="char-card">
+          <img src="images/demon.jpg" alt="Nezuko" />
+          <h4>Nezuko Kamado</h4>
+          <p>Tanjiro's sister turned demon who still protects humans.</p>
+        </div>
+        <div class="char-card">
+          <img src="images/demon.jpg" alt="Zenitsu" />
+          <h4>Zenitsu Agatsuma</h4>
+          <p>Timid but fierce in battle. Lightning breath user.</p>
+        </div>
+      </div>
+      <p class="antagonists"><strong>Antagonists:</strong> Muzan Kibutsuji (Main villain)</p>
+    </section>
+
+    <!-- Kung Fu Panda -->
+    <section id="kungfu" class="character-block">
+      <h3>Kung Fu Panda - Main Characters</h3>
+      <div class="char-grid">
+        <div class="char-card">
+          <img src="images/kungfu.jpg" alt="Po" />
+          <h4>Po (Protagonist)</h4>
+          <p>Accidental Dragon Warrior, lovable and brave.</p>
+        </div>
+        <div class="char-card">
+          <img src="images/kungfu.jpg" alt="Shifu" />
+          <h4>Master Shifu</h4>
+          <p>Po's teacher and mentor.</p>
+        </div>
+      </div>
+      <p class="antagonists"><strong>Antagonists:</strong> Tai Lung (and others)</p>
+    </section>
+
+    <!-- SpongeBob -->
+    <section id="spongebob" class="character-block">
+      <h3>The SpongeBob Movie - Main Characters</h3>
+      <div class="char-grid">
+        <div class="char-card">
+          <img src="images/spongebob.jpg" alt="SpongeBob" />
+          <h4>SpongeBob SquarePants</h4>
+          <p>Cheerful fry cook and sea sponge.</p>
+        </div>
+        <div class="char-card">
+          <img src="images/spongebob.jpg" alt="Patrick" />
+          <h4>Patrick Star</h4>
+          <p>SpongeBob's best friend, lovable and silly.</p>
+        </div>
+      </div>
+      <p class="antagonists"><strong>Antagonists:</strong> Plankton (varies by movie)</p>
+    </section>
+
+    <!-- My Hero Academia -->
+    <section id="mha" class="character-block">
+      <h3>My Hero Academia - Main Characters</h3>
+      <div class="char-grid">
+        <div class="char-card">
+          <img src="images/mha.jpg" alt="Izuku Midoriya" />
+          <h4>Izuku Midoriya (Deku)</h4>
+          <p>Quirkless boy who inherits One For All; protagonist.</p>
+        </div>
+        <div class="char-card">
+          <img src="images/mha.jpg" alt="All Might" />
+          <h4>All Might</h4>
+          <p>Symbol of Peace, Deku's mentor (former #1 hero).</p>
+        </div>
+      </div>
+      <p class="antagonists"><strong>Antagonists:</strong> Tomura Shigaraki & League of Villains</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-col">
+      <div class="logo-mini"><h3>MovieFlix</h3></div>
+    </div>
+    <div class="footer-col">
+      <h4>Developed by</h4>
+      <p>Group: WD1 Teams</p>
+    </div>
+    <div class="footer-col">
+      <h4>Menu</h4>
+      <nav>
+        <a href="index.html">Feature</a><br/>
+        <a href="characters.html">Characters</a><br/>
+        <a href="products.html">Products</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MovieFlix - Products</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo"><h1>MovieFlix</h1></div>
+    <nav class="main-nav">
+      <a href="index.html">Cinema</a>
+      <a href="characters.html">Characters</a>
+      <a href="products.html">Products</a>
+    </nav>
+    <div class="cart-summary">
+      <button id="cart-btn-3">Cart (<span id="cart-count-3">0</span>)</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>Products</h2>
+    <p>Shop official merchandise -- click <strong>Add to Cart</strong> to collect items. 4×3 grid below.</p>
+
+    <section class="products-grid">
+      <!-- Generate 12 product cards -->
+      <!-- Use images/prod1.jpg ... prod12.jpg -->
+      <!-- Example first product -->
+      <article class="product-card">
+        <img src="images/prod1.jpg" alt="Product 1" />
+        <h4>Demon Slayer Poster</h4>
+        <p class="price">₱350</p>
+        <p class="desc">A2 size, glossy poster.</p>
+        <button class="add-btn" data-id="p1" data-title="Demon Slayer Poster" data-price="350">Add to Cart</button>
+      </article>
+
+      <!-- Duplicate / modify for 12 products -->
+      <article class="product-card">
+        <img src="images/prod2.jpg" alt="Product 2" />
+        <h4>Kung Fu Panda Plush</h4>
+        <p class="price">₱450</p>
+        <p class="desc">Soft plush toy, 25cm.</p>
+        <button class="add-btn" data-id="p2" data-title="Kung Fu Panda Plush" data-price="450">Add to Cart</button>
+      </article>
+
+      <article class="product-card">
+        <img src="images/prod3.jpg" alt="Product 3" />
+        <h4>SpongeBob Mug</h4>
+        <p class="price">₱200</p>
+        <p class="desc">Ceramic mug, 350ml.</p>
+        <button class="add-btn" data-id="p3" data-title="SpongeBob Mug" data-price="200">Add to Cart</button>
+      </article>
+
+      <article class="product-card">
+        <img src="images/prod4.jpg" alt="Product 4" />
+        <h4>MHA Keychain</h4>
+        <p class="price">₱120</p>
+        <p class="desc">Acrylic keychain.</p>
+        <button class="add-btn" data-id="p4" data-title="MHA Keychain" data-price="120">Add to Cart</button>
+      </article>
+
+      <article class="product-card">
+        <img src="images/prod5.jpg" alt="Product 5" />
+        <h4>MovieFlix T-Shirt</h4>
+        <p class="price">₱500</p>
+        <p class="desc">Cotton, size S–XL.</p>
+        <button class="add-btn" data-id="p5" data-title="MovieFlix T-Shirt" data-price="500">Add to Cart</button>
+      </article>
+
+      <article class="product-card">
+        <img src="images/prod6.jpg" alt="Product 6" />
+        <h4>Demon Slayer Pin</h4>
+        <p class="price">₱80</p>
+        <p class="desc">Enamel pin, limited edition.</p>
+        <button class="add-btn" data-id="p6" data-title="Demon Slayer Pin" data-price="80">Add to Cart</button>
+      </article>
+
+      <article class="product-card">
+        <img src="images/prod7.jpg" alt="Product 7" />
+        <h4>Kung Fu Poster</h4>
+        <p class="price">₱320</p>
+        <p class="desc">Classic artwork poster.</p>
+        <button class="add-btn" data-id="p7" data-title="Kung Fu Poster" data-price="320">Add to Cart</button>
+      </article>
+
+      <article class="product-card">
+        <img src="images/prod8.jpg" alt="Product 8" />
+        <h4>SpongeBob Plush</h4>
+        <p class="price">₱400</p>
+        <p class="desc">Medium plush toy.</p>
+        <button class="add-btn" data-id="p8" data-title="SpongeBob Plush" data-price="400">Add to Cart</button>
+      </article>
+
+      <article class="product-card">
+        <img src="images/prod9.jpg" alt="Product 9" />
+        <h4>MHA Poster</h4>
+        <p class="price">₱350</p>
+        <p class="desc">Hero lineup poster.</p>
+        <button class="add-btn" data-id="p9" data-title="MHA Poster" data-price="350">Add to Cart</button>
+      </article>
+
+      <article class="product-card">
+        <img src="images/prod10.jpg" alt="Product 10" />
+        <h4>Sticker Pack</h4>
+        <p class="price">₱150</p>
+        <p class="desc">Mixed stickers set.</p>
+        <button class="add-btn" data-id="p10" data-title="Sticker Pack" data-price="150">Add to Cart</button>
+      </article>
+
+      <article class="product-card">
+        <img src="images/prod11.jpg" alt="Product 11" />
+        <h4>Phone Case</h4>
+        <p class="price">₱280</p>
+        <p class="desc">Fits multiple phone models.</p>
+        <button class="add-btn" data-id="p11" data-title="Phone Case" data-price="280">Add to Cart</button>
+      </article>
+
+      <article class="product-card">
+        <img src="images/prod12.jpg" alt="Product 12" />
+        <h4>Poster Frame</h4>
+        <p class="price">₱600</p>
+        <p class="desc">Ready-to-hang frame for A2 posters.</p>
+        <button class="add-btn" data-id="p12" data-title="Poster Frame" data-price="600">Add to Cart</button>
+      </article>
+    </section>
+
+    <section class="cart-panel" id="cart-panel">
+      <h3>Your Cart</h3>
+      <div id="cart-items"></div>
+      <p id="cart-total">Total: ₱0</p>
+      <button id="checkout-btn" class="btn">Checkout</button>
+      <button id="clear-cart" class="small-btn">Clear Cart</button>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-col"><h3>MovieFlix</h3></div>
+    <div class="footer-col"><h4>Developed by</h4><p>WD1 Teams</p></div>
+    <div class="footer-col"><h4>Menu</h4><nav><a href="index.html">Feature</a><br/><a href="characters.html">Characters</a></nav></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
